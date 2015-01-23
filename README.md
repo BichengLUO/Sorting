@@ -6,19 +6,19 @@ The project just contains some common sorting algorithms. When you don't remembe
 The sorting algorithms I implemented are:
 
 ### Insertion Sort
-```
+```C++
 void insertion_sort(unsigned *a, long length);
 ```
 ### Quick Sort
-```
+```C++
 void quick_sort(unsigned *a, long length);
 ```
 ### Merge Sort
-```
+```C++
 void merge_sort(unsigned *a, long length);
 ```
 ### Counting Sort
-```
+```C++
 void radix_counting_sort(unsigned *input, long length, long radix, long len);
 ```
 > **Note:**
@@ -27,7 +27,7 @@ void radix_counting_sort(unsigned *input, long length, long radix, long len);
 > - **len** means how long a segment should be
 
 ### Radix Sort
-```
+```C++
 void radix_sort(unsigned *a, long length, long r = 4);
 ```
 > **Note:**
