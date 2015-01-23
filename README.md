@@ -9,14 +9,17 @@ The sorting algorithms I implemented are:
 ```C++
 void insertion_sort(unsigned *a, long length);
 ```
+![insertion sort](/images/insertion-sort.gif)
 ### Quick Sort
 ```C++
 void quick_sort(unsigned *a, long length);
 ```
+![insertion sort](/images/quick-sort.gif)
 ### Merge Sort
 ```C++
 void merge_sort(unsigned *a, long length);
 ```
+![insertion sort](/images/merge-sort.gif)
 ### Counting Sort
 ```C++
 void radix_counting_sort(unsigned *input, long length, long radix, long len);
